@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 164px;
+    height: auto;
+}
+
+.right ul {
+    display: flex;
+    gap: 41px 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 3px;
+}
+
+.first {
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 75px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+.first span img {
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 20px;
+    width: 50vw;
+    text-align: center;
+}
+
+.btn {
+    background: #00b6d1;
+    padding: 11px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background: #00b6d1;
+    margin: 12px 0px;
+    padding: 11px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+.email {
+    background: #00b6d1;
+    margin: 30px;
+    padding: 11px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 17vw;
+    letter-spacing: 2px;
+}
+
+.btn-gren {
+    background: #5cb85c;
+    padding: 11px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-gren a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-blue a {
+    text-decoration: none;
+    color: white;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.second {
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+}
+
+.item {
+    background: #f9f9f9;
+    padding: 19px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: Segoe UI;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+small{
+    text-align: center;
+    font-size: 66%;
+    display: block;
+    padding-bottom: 14px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.download :nth-child(2) {
+    font-size: 19px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.download img {
+    padding: 0px 10px;
+}
+
+.download {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 28px 0px;
+}
+
+
+@media screen and (max-width: 1145px) {
+    .grid {
+        
+        background-color: red;
+        grid-template-columns: 1fr;
+       
+    }
+}
+
+.third{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    color: white;
+}
+
+.box{
+    border-radius: 10px;
+    background-color: white;
+    height: 42vh;
+    width: 24vw;
+    margin: 86px;
+    text-align: center;
+}
+
+.box h2{
+    color: #00b6d1;
+    font-weight: 300;
+    padding: 39px;
+}
+
+.lbl{
+    margin-bottom: -14px;
+    display: block;
+}
+
+#email{
+    height: 2vh;
+    width: 15vw;
+    padding: 10px;
+    outline: none;
+    background-color: #f9f9f9;
+    border: 1px solid rgba(51,51,51,.16);;
+}
