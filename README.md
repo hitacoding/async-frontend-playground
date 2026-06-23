@@ -1,25 +1,15 @@
 # Hi 👋, I'm Uttam
 
-🚀 MERN Stack Developer
+🚀 Frontend Developer
 
 ## Tech Stack
 - HTML
 - CSS
 - JavaScript
-- React
-- Node.js
-- Express.js
-- MongoDB
 
 ## Projects
 ### E-Commerce App
-- Google OAuth
-- JWT Authentication
-- Admin Dashboard
-
-### Video Calling App
-- WebRTC
-- WebSocket
+  * food ordering project-01  
 
 ## Connect With Me
 LinkedIn: https://linkedin.com/in/hitacoding
