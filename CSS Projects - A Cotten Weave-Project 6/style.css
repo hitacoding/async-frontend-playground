@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: flex-end;
+    padding: 0 150px;
+    padding-top: 110px;
+    gap: 60px;
+}
+
+#left {
+    height: 100%;
+    width: 60%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1 {
+    font-size: 7.8125vw;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* line-height: 100px; */
+    line-height: 5.388489208633093vw;
+}
+
+#left-bottom {
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color {
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+
+#left h3 {
+    margin-top: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+#left p {
+    /* line-height: 23px; */
+    line-height: 1.5vw;
+    width: 70%;
+    font-weight: 500;
+    /* font-size: 17px; */
+    font-size: 1.1vw;
+}
+
+#color h5 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+#first-color {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(94, 106, 108);
+    border-radius: 50%;
+}
+
+#second-color {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(42, 135, 150);
+    border-radius: 50%;
+}
+
+#right {
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+
+#right-top {
+    height: 60px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    position: relative;
+}
+
+#right-top h4 {
+    font-size: 20px;
+}
+
+#right-top h5 {
+    font-size: 15px;
+}
+
+#right-top h5 i {
+    color: goldenrod;
+}
+
+#right img {
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+}
+
+#black-gola {
+    position: absolute;
+    right: 9%;
+    top: 35%;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(79, 79, 79);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#black-gola h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#rotated {
+    /* background-color: red; */
+    position: absolute;
+    bottom: 10%;
+    right: 26.5%;
+    transform-origin: 0 0;
+    rotate: -90deg;
+    font-weight: 500;
+}
+
+#center {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 280px;
+    width: 410px;
+    /* background-color: rgba(36, 177, 71, 0.951); */
+    background: radial-gradient(#27c3b8, #9198e5);
+    filter: blur(200px);
+}
+
+@media (max-width: 600px) {
+    #main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+        align-items: flex-start;
+        padding: 40px;
+        padding-top: 40px;
+        gap: 60px;
+        overflow: hidden;
+    }
+
+    #left {
+        height: 55%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 70px;
+    }
+    
+    #left h1 {
+        font-size: 17vw;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 14vw;
+    }
+    
+    #left-bottom {
+        height: 53%;
+        width: 100%;
+    }
+    
+    #color {
+        width: fit-content;
+        padding: 8px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid white;
+        border-radius: 45px;
+    }
+    
+    #left h3 {
+        margin-top: 10px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        border-bottom: 2px solid white;
+        width: fit-content;
+    }
+    
+    #left p {
+        line-height: 5.6vw;
+        width: 100%;
+        font-weight: 500;
+        font-size: 5vw;
+    }
+    
+    #color h5 {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+    }
+    
+    #first-color {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(94, 106, 108);
+        border-radius: 50%;
+    }
+    
+    #second-color {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(42, 135, 150);
+        border-radius: 50%;
+    }
+    
+    #right {
+        height: fit-content;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #right-top {
+        height: 50px;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+        position: relative;
+
+    }
+    
+    #right-top h4 {
+        font-size: 20px;
+    }
+    
+    #right-top h5 {
+        font-size: 15px;
+    }
+    
+    #right-top h5 i {
+        color: goldenrod;
+    }
+    
+    #right img {
+        width: 100%;
+        height: 89%;
+        object-fit: cover;
+    }
+    
+    #black-gola {
+        position: absolute;
+        right: -21%;
+        top: 14%;
+        height: 130px;
+        width: 130px;
+        background-color: rgb(79, 79, 79);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #black-gola h4 {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    #rotated {
+        /* background-color: red; */
+        position: absolute;
+        bottom: -5%;
+        right: 22.5%;
+        transform-origin: 0 0;
+        rotate: -90deg;
+        font-weight: 500;
+        left: -13%;
+    }
+    
+    #center {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        height: 280px;
+        width: 410px;
+        /* background-color: rgba(36, 177, 71, 0.951); */
+        background: radial-gradient(#27c3b8, #9198e5);
+        filter: blur(200px);
+    }
+    
+}
