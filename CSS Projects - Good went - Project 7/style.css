@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(23, 29, 33, 0.882);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+#color{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background: radial-gradient(#1944ee, #8c8faf, #f30dff);
+    filter: blur(150px);
+}
+
+#color-two{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    filter: blur(20px);
+    font-size: 50px;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    /* background-color: rgb(89, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+#pointer {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+}
+
+#navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 30px;
+}
+
+#navbar-left h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#navbar-left span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#navbar-left h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#navbar-right {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    padding-right: 160px;
+
+}
+
+#navbar-right button {
+    padding: 8px 17px;
+    border: none;
+    border-radius: 45px;
+    background-color: #192022;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#navbar-right h6 {
+    font-size: 200px;
+    font-weight: 70;
+    padding-right: 25px;
+}
+
+#navbar-right i {
+    padding-left: 8px;
+}
+
+#content {
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+#top-content h1 {
+    padding-top: 65px;
+    font-size: 3.90625vw;
+    font-weight: 600;
+}
+
+#top-content p {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #cccdcd;
+}
+
+#bottom-content {
+    padding-top: 30px;
+}
+
+#bottom-content button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 0.5px;
+    background-color: #191f1f;
+    color: white;
+    cursor: pointer;
+}
+
+#bottom-content button:hover {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 0.5px;
+    background-color: #0dffff;
+    color: rgb(0, 0, 0);
+}
+
+#card-content {
+    height: 40%;
+    width: 100%;
+    /* background-color: blue; 0*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#card-first {
+    height: 55%;
+    width: 15%;
+    padding: 10px 35px;
+    border: 1px solid white;
+}
+
+#card-first:hover {
+    width: 15%;
+    padding: 10px 35px;
+    background-color: #1b1f20;
+}
+
+#card-first h2 {
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+#card-first p {
+    line-height: 30px;
+    color: #b8bcbe;
+}
+
+#card-second {
+    height: 55%;
+    width: 15%;
+    padding: 10px 35px;
+    border: 0.5px solid white;
+}
+
+#card-second:hover {
+    height: 55%;
+    width: 15%;
+    padding: 10px 35px;
+    background-color: #1b1f20;
+    border: 0.1px solid white;
+}
+
+#card-second i {
+    font-size: 30px;
+}
+
+#card-second h2 {
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+#card-second p {
+    line-height: 30px;
+    color: #b8bcbe;
+}
+
+#card-therd {
+    width: 20%;
+    padding: 7px 17px;
+    border: 1px solid white;
+}
+
+#card-therd:hover {
+    width: 20%;
+    background-color: #1b1f20;
+    border: 1px solid white;
+}
+
+#card-therd i {
+    font-size: 30px;
+}
+
+#card-therd h2 {
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+#card-therd p {
+    line-height: 28px;
+    color: #b8bcbe;
+}
+
+#card-forth {
+    width: 20%;
+    padding: 14px 17px;
+    border: 1px solid white;
+    /* filter: blur(4px); */
+}
+
+#card-forth:hover {
+    width: 20%;
+    background-color: #1b1f20;
+    border: 1px solid white;
+}
+
+#card-forth i {
+    font-size: 30px;
+}
+
+#card-forth h2 {
+    padding: 15px 0px;
+    font-weight: 400;
+}
+
+#card-forth p {
+    line-height: 30px;
+    color: #b8bcbe;
+}
+
+#arrow {
+    padding-left: 20px;
+}
+
+#arrow i {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #1b1f20;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-weight: 400;
+}
